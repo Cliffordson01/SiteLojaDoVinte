@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja do Vinte - Elegância Premium a partir de R$20</title>
+    <meta name="description"
+        content="Vitrine virtual da Loja do Vinte. Moda de qualidade a preços acessíveis. Visite nossa loja física em Floresta, PR.">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span>LOJA DO VINTE</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/5544999838995" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">ELEGÂNCIA & QUALIDADE</h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Produtos premium a partir de apenas
+                    R$20</p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#produtos" class="btn btn-primary">Ver Coleção</a>
+                    <a href="#contato" class="btn btn-outline">Visite-nos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <span>Deslize para explorar</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Conheça nossa história</span>
+                <h2 class="section-title">Descubra a <span>LOJA DO VINTE</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>Na <strong>LOJA DO VINTE</strong>, unimos o melhor dos dois mundos: qualidade premium e preços
+                        acessíveis. Nossa curadoria oferece peças que combinam sofisticação e conforto, todas com
+                        valores que cabem no seu bolso.</p>
+                    <p>Cada produto em nossa coleção é selecionado para oferecer durabilidade, estilo atual e
+                        versatilidade. Desde looks casuais até peças mais refinadas, temos opções para todas as
+                        ocasiões.</p>
+                    <p>Visite nossa loja física para experimentar pessoalmente e levar para casa peças que vão elevar
+                        seu estilo sem comprometer seu orçamento.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">+500</span>
+                            <span class="stat-label">Clientes Satisfeitos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">+100</span>
+                            <span class="stat-label">Produtos Premium</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">R$20</span>
+                            <span class="stat-label">Preço Inicial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="Img/hero IMG.png" alt="Exterior da Loja do Vinte">
+                    </div>
+                    <div class="experience-badge">
+                        <span>5 Anos</span>
+                        <span>de Experiência</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Products Section -->
+<section id="produtos" class="section products">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-subtitle">Nossas Coleções</span>
+            <h2 class="section-title">Produtos <span>Premium</span></h2>
+            <div class="category-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="roupas">Roupas</button>
+                <button class="filter-btn" data-filter="infantil">Infantil</button>
+                <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <!-- Categoria: Roupas -->
+            <div class="product-category" data-category="roupas">
+                <!-- Row 1 -->
+                <div class="product-row">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-category="roupas" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-badge">Mais Vendido</div>
+                        <div class="product-image">
+                            <img src="Img/Roupas 1.png" alt="Nike Sportswear Tênis Camiseta">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="1">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Nike Sportswear Tênis Camiseta</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 20,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Camiseta%20Premium%20por%20R$%2025,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card" data-category="roupas" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-image">
+                            <img src="Img/Roupass2.jpg" alt="Camiseta Estampada Masculina X Txc">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="2">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Camiseta Estampada Masculina X Txc</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 20,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Calça%20Jeans%20Slim%20por%20R$%2045,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="product-card" data-category="roupas" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-image">
+                            <img src="Img/Roupas 3.png" alt="Camiseta Country Gringa's">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="3">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Camiseta Country Gringa's</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 20,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Vestido%20Floral%20por%20R$%2035,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <div class="product-row">
+                    <!-- Product 4 -->
+                    <div class="product-card" data-category="roupas" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-badge">Novidade</div>
+                        <div class="product-image">
+                            <img src="Img/Roupass4.jpg" alt="Camisa Camiseta The Countries Farm Usa">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="4">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Camisa Camiseta The Countries Farm Usa</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 25,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Camiseta%20Manga%20Longa%20por%20R$%2025,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 5 -->
+                    <div class="product-card" data-category="roupas" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-image">
+                            <img src="Img/Roupass5.jpg" alt="Camiseta Caveira de Vaca do Velho Oeste">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="5">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Camiseta Caveira de Vaca do Velho Oeste</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 45,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Calça%20Jeans%20Slim%20por%20R$%2045,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 6 -->
+                    <div class="product-card" data-category="roupas" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-image">
+                            <img src="Img/Roupass6.jpg" alt="Camiseta Lobo Touch  Masculina Acostamento">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="6">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Camiseta Lobo Touch  Masculina Acostamento</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 35,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Vestido%20Floral%20por%20R$%2035,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categoria: Infantil -->
+            <div class="product-category" data-category="infantil">
+                <!-- Row 1 -->
+                <div class="product-row">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-category="infantil" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-badge">Novidade</div>
+                        <div class="product-image">
+                            <img src="Img/Infantil 1.png" alt="Carrinho de boneca infantil com cesta inferior">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="7">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Carrinho de boneca infantil com cesta inferior</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 20,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Conjunto%20Infantil%20por%20R$%2035,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card" data-category="infantil" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-image">
+                            <img src="Img/Infantil 2.png" alt="Boneca miraculous ladybug">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="8">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Boneca miraculous ladybug</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 35,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Conjunto%20Infantil%20por%20R$%2035,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="product-card" data-category="infantil" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-image">
+                            <img src="Img/Infantil 3.png" alt="Boneca mirabel encanto disney">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="9">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Boneca mirabel encanto disney</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 25,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Brinquedo%20Educativo%20por%20R$%2025,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <div class="product-row">
+                    <!-- Product 4 -->
+                    <div class="product-card" data-category="infantil" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-badge">Promoção</div>
+                        <div class="product-image">
+                            <img src="Img/Infantil 4.png" alt="BASQUETE DIVERTIDO Brinquedos Pica-Pau">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="10">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">BASQUETE DIVERTIDO Brinquedos Pica-Pau</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 30,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Kit%20de%20Banho%20Infantil%20por%20R$%2030,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 5 -->
+                    <div class="product-card" data-category="infantil" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-image">
+                            <img src="Img/Infantil 5.png" alt="Brinquedo Boneca Borboleta Fada">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="11">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Brinquedo Boneca Borboleta Fada</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 28,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Mochila%20Infantil%20por%20R$%2028,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 6 -->
+                    <div class="product-card" data-category="infantil" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-image">
+                            <img src="Img/Infantil 6.png" alt="Boneca de Plástico Com Vestido Princesa">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="12">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Boneca de Plástico Com Vestido Princesa</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 40,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Tênis%20Infantil%20por%20R$%2040,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Categoria: Acessórios -->
+            <div class="product-category" data-category="acessorios">
+                <!-- Row 1 -->
+                <div class="product-row">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-category="acessorios" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-image">
+                            <img src="Img/Acessory 4.png" alt="Quadro Decorativo Torre Eiffel Fran Adesivos de Parede">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="13">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Quadro Decorativo Torre Eiffel Fran Adesivos de Parede</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 20,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Bolsa%20Feminina%20por%20R$%2030,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card" data-category="acessorios" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-image">
+                            <img src="Img/Acessory 7.png" alt="Peça Decoração Gesso Coruja com Filhote Estatua">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="14">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Peça Decoração Gesso Coruja com Filhote Estatua</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 20,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Cinto%20de%20Couro%20por%20R$%2025,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="product-card" data-category="acessorios" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-badge">Novidade</div>
+                        <div class="product-image">
+                            <img src="Img/Acessory 3.png" alt="Copo Térmico 473ml Inox Quente e Gelado">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="15">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Copo Térmico 473ml Inox Quente e Gelado</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 35,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Relógio%20de%20Parede%20por%20R$%2035,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <div class="product-row">
+                    <!-- Product 4 -->
+                    <div class="product-card" data-category="acessorios" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-image">
+                            <img src="Img/Caipirinha.png" alt="Conjunto de caipirinha - Stolf">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="16">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Conjunto de caipirinha - Stolf</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 28,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Cesto%20de%20Vime%20por%20R$%2028,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 5 -->
+                    <div class="product-card" data-category="acessorios" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-badge">Promoção</div>
+                        <div class="product-image">
+                            <img src="Img/Acessory 5.png" alt="Bone Lancamento Bordo Txc Masculino Original">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="17">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Bone Lancamento Bordo Txc Masculino Original</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 45,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20a%20Luminária%20Decorativa%20por%20R$%2045,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 6 -->
+                    <div class="product-card" data-category="acessorios" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-image">
+                            <img src="Img/Acessory 6.png" alt="Gel Candles Holder - Diwali Candles">
+                            <div class="product-overlay">
+                                <button class="quick-view-btn" data-product="18">
+                                    <i class="fas fa-eye"></i> Visualizar
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Gel Candles Holder - Diwali Candles</h3>
+                            <div class="product-meta">
+                                <span class="product-price">R$ 22,00</span>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/5544999838995?text=Olá!%20Gostaria%20de%20comprar%20o%20Porta-retrato%20por%20R$%2022,00" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">O que dizem sobre nós</span>
+                <h2 class="section-title">Clientes <span>Satisfeitos</span></h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Comprei várias peças na Loja do Vinte e todas superaram minhas expectativas. A qualidade é
+                            excelente pelo preço que paguei!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Img/Tesmun.jpg" alt="Ana Silva">
+                        <div class="author-info">
+                            <h4>Ana Silva</h4>
+                            <span>Floresta, PR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"Atendimento impecável! Me explicaram todas as dúvidas pelo WhatsApp e reservei as peças para
+                            experimentar na loja."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Img/Tesmun2.jpg" alt="Carlos Mendes">
+                        <div class="author-info">
+                            <h4>Carlos Mendes</h4>
+                            <span>Floresta, PR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Compro roupas para meus filhos aqui há anos. Sempre encontro peças de qualidade e com preços
+                            justos."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Img/Tesmun3.jpg" alt="Mariana Costa">
+                        <div class="author-info">
+                            <h4>Mariana Costa</h4>
+                            <span>Floresta, PR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Gostou de algum produto?</h2>
+                <p>Entre em contato agora pelo WhatsApp ou visite nossa loja física</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5544999838995" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                    </a>
+                    <a href="#contato" class="btn btn-outline">Ver Localização</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Venha nos visitar</span>
+                <h2 class="section-title">Nossa <span>Loja</span></h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Endereço</h3>
+                            <p>AV. Plínio Arion Pessoa, Nº 692<br>Floresta, Paraná</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Telefone/WhatsApp</h3>
+                            <p>+55 44 9 9983-8995</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                    <div class="whatsapp-btn-container">
+                        <a href="https://wa.me/5544999838995" class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Falar conosco agora
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <!-- Botão de traçar rota atualizado -->
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=AV.+Plínio+Arion+Pessoa,+692,+Floresta+-+PR" class="btn btn-route" target="_blank">
+                            <i class="fas fa-route"></i> Traçar rota no Google Maps
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-map" data-aos="fade-left">
+                    <!-- Mapa atualizado com a localização correta e evento de clique -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.123456789012!2d-52.12345678901234!3d-23.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA3JzI0LjQiUyA1MsKwMDcnMTIuMyJX!5e0!3m2!1spt-BR!2sbr!4v1621234567890!5m2!1spt-BR!2sbr"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" id="storeMap"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Quick View Modal -->
+    <div class="product-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <div class="product-modal-images">
+                    <div class="main-image">
+                        <img src="" alt="Product Image">
+                    </div>
+                    <div class="thumbnail-images">
+                        <div class="thumbnail active">
+                            <img src="" alt="Thumbnail 1">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="" alt="Thumbnail 2">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="" alt="Thumbnail 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-modal-details">
+                    <h2 class="product-title"></h2>
+                    <div class="product-meta">
+                        <div class="product-price"></div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-count">(42 avaliações)</span>
+                        </div>
+                        <div class="product-availability">
+                            <i class="fas fa-check-circle"></i> Disponível na loja
+                        </div>
+                    </div>
+                    <div class="product-description">
+                        <p></p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Material premium</li>
+                            <li><i class="fas fa-check"></i> Durabilidade garantida</li>
+                            <li><i class="fas fa-check"></i> Design exclusivo</li>
+                            <li><i class="fas fa-check"></i> Experimente na loja</li>
+                        </ul>
+                    </div>
+                    <div class="product-actions">
+                        <!-- Botão WhatsApp atualizado para ser totalmente funcional -->
+                        <a href="#" class="btn btn-whatsapp whatsapp-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Comprar pelo WhatsApp
+                        </a>
+                    </div>
+                    <div class="product-share">
+                        <span>Compartilhar:</span>
+                        <a href="#" class="share-icon fb-share"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="share-icon ig-share"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="share-icon wa-share"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5544999838995" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">LOJA DO VINTE</div>
+                    <p class="footer-about">Oferecendo qualidade premium a preços acessíveis desde 2018. Visite nossa
+                        loja física em Floresta, PR.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Localização</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Categorias</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-filter="roupas">Roupas</a></li>
+                        <li><a href="#" data-filter="infantil">Infantil</a></li>
+                        <li><a href="#" data-filter="acessorios">Acessórios</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-title">Contato</h3>
+                    <p>AV. Plínio Arion Pessoa, Nº 692<br>Floresta, Paraná</p>
+                    <p>+55 44 9 9983-8995</p>
+                    <div class="footer-whatsapp">
+                        <a href="https://wa.me/5544999838995" class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Loja do Vinte. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>
