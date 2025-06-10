@@ -143,9 +143,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 20,00',
                 description: 'Camiseta esportiva premium da Nike, ideal para atividades físicas ou uso casual. Tecido respirável e confortável.',
                 images: [
-                    'Img/Roupas 1.png',
-                    'Img/Roupas 1.png',
-                    'Img/Roupas 1.png'
+                    'img/camisa/imgnike/hero.png',
+                    'img/camisa/imgnike/hero.png',
+                    'img/camisa/imgnike/hero.png'
                 ]
             },
             {
@@ -154,9 +154,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 20,00',
                 description: 'Camiseta masculina com estampa moderna, tecido de algodão de alta qualidade e durabilidade.',
                 images: [
-                    'Img/Roupass2.jpg',
-                    'Img/ROUPAS 2.png',
-                    'Img/Roupasss2.jpg'
+                    'img/camisa/txcimg/hero.jpg',
+                    'img/camisa/txcimg/txcpng.png',
+                    'img/camisa/txcimg/txcwhite.jpg'
                 ]
             },
             {
@@ -165,9 +165,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 20,00',
                 description: 'Camiseta temática country com design exclusivo, perfeita para eventos e festas temáticas.',
                 images: [
-                    'Img/Roupas 3.png',
-                    'Img/Roupass3.jpg',
-                    'Img/Roupasss3.jpg'
+                    'img/camisa/gringaimg/hero.png',
+                    'img/camisa/gringaimg/gringablack.jpg',
+                    'img/camisa/gringaimg/gringawhite.jpg'
                 ]
             },
             {
@@ -176,9 +176,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 25,00',
                 description: 'Camisa Camiseta The Countries Farm Usa premium, ideal para dias mais frescos ou proteção solar.',
                 images: [
-                    'Img/Roupass4.jpg',
-                    'Img/Roupas 4.png',
-                    'Img/Roupasss4.jpg'
+                    'img/camisa/texasfarmimg/hero.jpg',
+                    'img/camisa/texasfarmimg/texasblack.jpg',
+                    'img/camisa/texasfarmimg/texasfarmwhite.png'
                 ]
             },
             {
@@ -187,9 +187,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 45,00',
                 description: 'Camiseta Caveira de Vaca do Velho Oeste fit com elastano para maior conforto e modelagem moderna.',
                 images: [
-                    'Img/Roupass5.jpg',
-                    'Img/Roupas 5.png',
-                    'Img/Roupasss5.jpg'
+                    'img/camisa/bull/hero.jpg',
+                    'img/camisa/bull/bullimg.jpg',
+                    'img/camisa/bull/bullsimg.png'
                 ]
             },
             {
@@ -198,9 +198,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 35,00',
                 description: 'Camiseta Lobo Touch Masculina Acostamento com tecido leve e arejado, perfeito para o verão com modelagem confortável.',
                 images: [
-                    'Img/Roupass6.jpg',
-                    'Img/Roupas 6.png',
-                    'Img/Roupasss6.jpg'
+                    'img/camisa/wolfimg/hero.jpg',
+                    'img/camisa/wolfimg/wolfimg.png',
+                    'img/camisa/wolfimg/hero.jpg'
                 ]
             },
             
@@ -211,9 +211,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 20,00',
                 description: 'Brinquedo educativo que estimula a coordenação motora das crianças de forma divertida.',
                 images: [
-                    'Img/Infantil 1.png',
-                    'Img/Playground1.jpg',
-                    'Img/Playground11.jpg'
+                    'img/child/car/hero.png',
+                    'img/child/car/pink.jpg',
+                    'img/child/car/style.jpg'
                 ]
             },
             {
@@ -222,9 +222,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 35,00',
                 description: 'Boneca miraculous ladybug super confortável e resistente, perfeito para o dia a dia das crianças.',
                 images: [
-                    'Img/Infantil 2.png',
-                    'Img/Playground2.jpg',
-                    'Img/Playground22.jpg'
+                    'img/child/miraculous/hero.png',
+                    'img/child/miraculous/bugimg.jpg',
+                    'img/child/miraculous/bug.jpg'
                 ]
             },
             {
@@ -233,9 +233,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 25,00',
                 description: 'Brinquedo que estimula o aprendizado e desenvolvimento cognitivo das crianças.',
                 images: [
-                    'Img/Infantil 2.jpg',
-                    'Img/Playground3.jpg',
-                    'Img/Playground33.jpg'
+                    'img/child/mirabel/hero.png',
+                    'img/child/mirabel/mirabelimg.jpg',
+                    'img/child/mirabel/miraimg.jpg'
                 ]
             },
             {
@@ -244,9 +244,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 30,00',
                 description: 'BASQUETE DIVERTIDO Brinquedos Pica-Pau.',
                 images: [
-                    'Img/Infantil 4.png',
-                    'Img/Playground4.jpg',
-                    'Img/Playground44.jpg'
+                    'img/child/basquet/hero.png',
+                    'img/child/basquet/basqua.png',
+                    'img/child/basquet/basquaimg.jpg'
                 ]
             },
             {
@@ -255,9 +255,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 28,00',
                 description: 'Brinquedo Boneca Borboleta Fada resistente e ergonômica, com divisórias e design atrativo para crianças.',
                 images: [
-                    'Img/Infantil 5.png',
-                    'Img/Playground5.jpg',
-                    'Img/Infantil 5.png'
+                    'img/child/butterfly/hero.png',
+                    'img/child/butterfly/borboleta.jpg',
+                    'img/child/butterfly/hero.png'
                 ]
             },
             {
@@ -266,9 +266,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 40,00',
                 description: 'Boneca de Plástico Com Vestido Princesa durável, ideal para o dia a dia e atividades escolares.',
                 images: [
-                    'Img/Infantil 6.png',
-                    'Img/Playground6.jpg',
-                    'Img/Playground66.jpg'
+                    'img/child/princess/hero.png',
+                    'img/child/princess/img.jpg',
+                    'img/child/princess/prin.jpg'
                 ]
             },
             
@@ -279,9 +279,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 20,00',
                 description: 'Quadro decorativo da Torre Eiffel, perfeito para dar um toque elegante à sua decoração.',
                 images: [
-                    'Img/Acessory 4.png',
-                    'Img/Acessoriotore.jpg',
-                    'Img/Acessoriotorre.jpg'
+                    'img/acessory/eiffel/hero.png',
+                    'img/acessory/eiffel/imgfel.jpg',
+                    'img/acessory/eiffel/torre.jpg'
                 ]
             },
             {
@@ -290,9 +290,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 20,00',
                 description: 'Peça decorativa em gesso com tema de coruja, ideal para enfeitar prateleiras e mesas.',
                 images: [
-                    'Img/Acessory 7.png',
-                    'Img/Coruja1.jpg',
-                    'Img/Coruja.jpg'
+                    'img/acessory/owl/hero.png',
+                    'img/acessory/owl/backimh.jpg',
+                    'img/acessory/owl/sculpimg.jpg'
                 ]
             },
             {
@@ -301,9 +301,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 35,00',
                 description: 'Copo Térmico 473ml Inox Quente e Gelado com design elegante para qualquer ambiente.',
                 images: [
-                    'Img/Acessory 3.png',
-                    'Img/cup.jpg',
-                    'Img/Cup1.jpg'
+                    'img/acessory/stanley/hero.png',
+                    'img/acessory/stanley/cup.jpg',
+                    'img/acessory/stanley/imgstan.jpg'
                 ]
             },
             {
@@ -312,9 +312,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 28,00',
                 description: 'Conjunto de caipirinha - Stolf artesanal, perfeito para celebra com os amigos.',
                 images: [
-                    'Img/Caipirinha.png',
-                    'Img/Caipirinha1.jpg',
-                    'Img/Caipirinha2.jpg'
+                    'img/acessory/caipirinha/hero.png',
+                    'img/acessory/caipirinha/caipirimg.png',
+                    'img/acessory/caipirinha/caimg.jpg'
                 ]
             },
             {
@@ -323,9 +323,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 45,00',
                 description: 'Bone Lancamento Bordo Txc Masculino Original, aconchegante e sofisticado.',
                 images: [
-                    'Img/Acessory 5.png',
-                    'Img/Boné.jpg',
-                    'Img/Acessory 5.png'
+                    'img/acessory/bone/hero.png',
+                    'img/acessory/bone/bone.jpg',
+                    'img/acessory/bone/hero.png'
                 ]
             },
             {
@@ -334,9 +334,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 'R$ 22,00',
                 description: 'Gel Candles Holder - Diwali Candles decorativa que cria um ambiente aconchegante e sofisticado.',
                 images: [
-                    'Img/Acessory 6.png',
-                    'Img/Luminaria.jpg',
-                    'Img/Luminaria1.jpg'
+                    'img/acessory/lumiere/hero.png',
+                    'img/acessory/lumiere/lumen.jpg',
+                    'img/acessory/lumiere/lumena.jpg'
                 ]
             }
         ];
